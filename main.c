@@ -11,7 +11,7 @@
 #define bitcpy(dv,dvbit,sv,svbit) ((sv&(0x01<<svbit))? (dv|=(0x01<<dvbit)):(dv&=~(0x01<<dvbit)))
 
 
-/*------------字串处理小程序_START-------------*/
+/*------------START-------------*/
 /*********************************************************************//**
  * @brief       Compare two message
  * @param[in]   Tx_Msg transmit message
